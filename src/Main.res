@@ -4,5 +4,5 @@ let consoleLog = Js.Console.log
 
 switch root {
 | None => "Root element not found"->consoleLog
-| Some(element) => ReactDOM.render(<Hooks />, element)
+| Some(element) => ReactDOM.render(<Styling />, element)
 }
